@@ -1,0 +1,26 @@
+{
+    "settingsVersion": "1.67",
+    "exclusionRules": [
+        {
+            "pattern": "https?://mail.google.com/*",
+            "passKeys": ""
+        }
+    ],
+    "filterLinkHints": false,
+    "waitForEnterForFilteredHints": true,
+    "hideHud": false,
+    "keyMappings": "unmap r\nunmap u\nunmap d\nunmap J\nunmap K\nunmap gt\nunmap gT\nunmap <c-e>\nunmap <c-y>\nmap q goBack\nmap Q removeTab\nmap K scrollPageUp\nmap J scrollPageDown\nmap = performFind\nmap - performBackwardsFind\nmap <c-o> goBack\nmap <C-i> goForward\nmap < moveTabLeft\nmap > moveTabRight\nmap I focusInput\nmap R reload\nmap <c-r> reload\nmap <c-a-l> nextTab\nmap <c-a-h> previousTab\nmap H visitPreviousTab\nmap a Marks.activateGotoMode\nmap dh closeTabsOnLeft\nmap dl closeTabsOnRight\nmap dq closeOtherTabs\nmap gh firstTab\nmap gl lastTab\nmap gm toggleMuteTab\nmap gp togglePinTab\nmap s LinkHints.activateModeToOpenInNewTab\nmap F LinkHints.activateModeToOpenInNewForegroundTab\nmap <space><space>s LinkHints.activateMode",
+    "linkHintCharacters": "sadfjklewcmpgh",
+    "linkHintNumbers": "0123456789",
+    "newTabUrl": "about:newtab",
+    "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+    "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+    "regexFindMode": true,
+    "ignoreKeyboardLayout": false,
+    "scrollStepSize": 100,
+    "smoothScroll": true,
+    "grabBackFocus": false,
+    "searchEngines": "w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\n\n# More examples.\n#\n# (Vimium supports search completion Wikipedia, as\n# above, and for these.)\n#\n# g: https://www.google.com/search?q=%s Google\n# l: https://www.google.com/search?q=%s&btnI I'm feeling lucky...\n# yt: https://www.youtube.com/results?search_query=%s Youtube\n# gm: https://www.google.com/maps?q=%s Google maps\n# b: https://www.bing.com/search?q=%s Bing\n# d: https://duckduckgo.com/?q=%s DuckDuckGo\n# az: https://www.amazon.com/s/?field-keywords=%s Amazon\n# qw: https://www.qwant.com/?q=%s Qwant\nb: https://search.bilibili.com/all?keyword=%s Bilibili\nd: https://www.baidu.com/s?wd=%s Baidu\ngh: https://github.com/search?q=%s Github\nge: https://search.gitee.com/?type=repository&q=%s Gitee\nc: https://so.csdn.net/so/search?spm=1000.2115.3001.4498&q=%s CSDN\nbi: https://www.bing.com/search?q=%s 必应\ng: https://www.google.com/search?q=%s Google\nbr: https://search.brave.com/search?q=%s Brave\ny: http://dict.youdao.com/w/%s/#keyfrom=dict2.top 有道\ndk: https://duckduckgo.com/?q=%s DuckDuckGo\nec: https://www.ecosia.org/search?q=%s Ecosia\nqw: https://www.qwant.com/?q=%s Qwant\nya: https://yandex.com/search/?text=%s Yandex\nyh: https://search.yahoo.com/search?p=%s Yahoo\nbm: https://api.map.baidu.com/geocoder?output=html&address=%s 百度地图\ngd: https://www.gaode.com/search?query=%s 高德地图\ngm: https://www.google.com/maps?q=%s 谷歌地图\nyt: https://www.youtube.com/results?search_query=%s You Tube\nwk: https://www.wikipedia.org/w/index.php?search=%s Wikipedia\nbx: https://xueshu.baidu.com/s?ie=utf-8&wd=%s 百度学术\ngx: https://scholar.google.com/scholar?q=$s 谷歌学术\ntb: https://s.taobao.com/search?ie=utf8&q=%s 淘宝\njd: https://search.jd.com/Search?enc=utf-8&keyword=%s 京东\npd: https://youhui.pinduoduo.com/search/landing?keyword=%s 拼多多\naz: https://www.amazon.com/s?k=%s 亚马逊\njs: javascript:\\ $S; JavaScript",
+    "searchUrl": "https://www.baidu.com/s?wd=",
+    "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
+}

@@ -1,0 +1,78 @@
+unmap r
+unmap u
+unmap d
+unmap J
+unmap K
+unmap gt
+unmap gT
+unmap <c-e>
+unmap <c-y>
+map q goBack
+map Q removeTab
+map K scrollPageUp
+map J scrollPageDown
+map = performFind
+map - performBackwardsFind
+map <c-o> goBack
+map <C-i> goForward
+map < moveTabLeft
+map > moveTabRight
+map I focusInput
+map R reload
+map <c-r> reload
+map <a-l> nextTab
+map <a-h> previousTab
+map H visitPreviousTab
+map a Marks.activateGotoMode
+map dh closeTabsOnLeft
+map dl closeTabsOnRight
+map dq closeOtherTabs
+map gh firstTab
+map gl lastTab
+map gm toggleMuteTab
+map gp togglePinTab
+map s LinkHints.activateModeToOpenInNewTab
+map F LinkHints.activateModeToOpenInNewForegroundTab
+map <space><space>s LinkHints.activateMode
+
+w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia
+
+# More examples.
+#
+# (Vimium supports search completion Wikipedia, as
+# above, and for these.)
+#
+# g: https://www.google.com/search?q=%s Google
+# l: https://www.google.com/search?q=%s&btnI I'm feeling lucky...
+# yt: https://www.youtube.com/results?search_query=%s Youtube
+# gm: https://www.google.com/maps?q=%s Google maps
+# b: https://www.bing.com/search?q=%s Bing
+# d: https://duckduckgo.com/?q=%s DuckDuckGo
+# az: https://www.amazon.com/s/?field-keywords=%s Amazon
+# qw: https://www.qwant.com/?q=%s Qwant
+b: https://search.bilibili.com/all?keyword=%s Bilibili
+d: https://www.baidu.com/s?wd=%s Baidu
+gh: https://github.com/search?q=%s Github
+ge: https://search.gitee.com/?type=repository&q=%s Gitee
+c: https://so.csdn.net/so/search?spm=1000.2115.3001.4498&q=%s CSDN
+bi: https://www.bing.com/search?q=%s 必应
+g: https://www.google.com/search?q=%s Google
+br: https://search.brave.com/search?q=%s Brave
+y: http://dict.youdao.com/w/%s/#keyfrom=dict2.top 有道
+dk: https://duckduckgo.com/?q=%s DuckDuckGo
+ec: https://www.ecosia.org/search?q=%s Ecosia
+qw: https://www.qwant.com/?q=%s Qwant
+ya: https://yandex.com/search/?text=%s Yandex
+yh: https://search.yahoo.com/search?p=%s Yahoo
+bm: https://api.map.baidu.com/geocoder?output=html&address=%s 百度地图
+gd: https://www.gaode.com/search?query=%s 高德地图
+gm: https://www.google.com/maps?q=%s 谷歌地图
+yt: https://www.youtube.com/results?search_query=%s You Tube
+wk: https://www.wikipedia.org/w/index.php?search=%s Wikipedia
+bx: https://xueshu.baidu.com/s?ie=utf-8&wd=%s 百度学术
+gx: https://scholar.google.com/scholar?q=$s 谷歌学术
+tb: https://s.taobao.com/search?ie=utf8&q=%s 淘宝
+jd: https://search.jd.com/Search?enc=utf-8&keyword=%s 京东
+pd: https://youhui.pinduoduo.com/search/landing?keyword=%s 拼多多
+az: https://www.amazon.com/s?k=%s 亚马逊
+js: javascript:\ $S; JavaScript
